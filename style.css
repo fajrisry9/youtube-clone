@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding-left: 0;
+}
+
+.sidebar-sticky {
+    position: sticky;
+    top: 48px;
+    height: calc(100vh - 48px);
+    padding-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-link>span {
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+.nav-footer {
+    padding-right: 30px;
+    padding-left: 2px;
+}
+
+.nav-footer>.nav-link {
+    padding: 0;
+    padding-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #e2e2e2;
+}
